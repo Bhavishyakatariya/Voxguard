@@ -1,0 +1,46 @@
+[
+  {
+    "verdict": "FAKE",
+    "confidence_pct": 69.6,
+    "confidence_ratio": 0.696,
+    "fake_probability": 0.696,
+    "caption": "The model classified this recording as FAKE (69.6% confidence). Attribution primarily concentrated on the mid-frequency region between 1.6 kHz and 6.0 kHz during 2.1\u20133.5 seconds, where abnormal spectral energy patterns related to vocal formant modulations and synthetic transition energy influenced the decision.",
+    "heatmap_filename": "web_upload_20261111_102058_sample-12s_heatmap.png",
+    "heatmap_url": "/api/heatmap/web_upload_20261111_102058_sample-12s_heatmap.png",
+    "time_interval_seconds": [
+      2.11,
+      3.55
+    ],
+    "frequency_range_hz": [
+      1575.0,
+      5984.0
+    ],
+    "frequency_band": "mid",
+    "attribution_strength": 0.439,
+    "latency_seconds": 1.913,
+    "filename": "sample-12s.mp3",
+    "timestamp": "2026-11-11 10:21:00"
+  },
+  {
+    "verdict": "FAKE",
+    "confidence_pct": 100.0,
+    "confidence_ratio": 1.0,
+    "fake_probability": 1.0,
+    "caption": "The model classified this recording as FAKE (100.0% confidence). Attribution primarily concentrated on the high-frequency region between 0.3 kHz and 8.0 kHz during 0.9\u20133.4 seconds, where abnormal spectral energy patterns related to high-frequency spectral envelope and phase continuity influenced the decision.",
+    "heatmap_filename": "web_sample_fake_heatmap.png",
+    "heatmap_url": "/api/heatmap/web_sample_fake_heatmap.png",
+    "time_interval_seconds": [
+      0.86,
+      3.36
+    ],
+    "frequency_range_hz": [
+      252.0,
+      8000.0
+    ],
+    "frequency_band": "high",
+    "attribution_strength": 0.447,
+    "latency_seconds": 36.185,
+    "filename": "sample_fake.wav",
+    "timestamp": "2026-11-11 10:19:26"
+  }
+]

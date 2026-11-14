@@ -1,0 +1,4 @@
+partition,total_samples,real_samples,fake_samples,accuracy,precision,recall,f1_score,auc_roc,eer_percent,eer_threshold
+OVERALL,32003,5763,26240,0.88,0.9713,0.8797,0.9232,0.9589,11.95,0.4981
+ASVSPOOF,27235,2768,24467,0.8644,0.9699,0.8762,0.9207,0.9146,17.15,0.604
+INTHEWILD,4768,2995,1773,0.9694,0.9898,0.9272,0.9575,0.9951,2.11,0.1767

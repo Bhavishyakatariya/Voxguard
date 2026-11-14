@@ -1,0 +1,194 @@
+[
+  {
+    "audio_path": "C:\\Users\\Bhavishya Katariya\\Downloads\\voxguard_dashboard_input (2) - Copy\\data\\raw\\inthewild\\13213.wav",
+    "predicted_label": "Real",
+    "predicted_class": 0,
+    "confidence": 1.0,
+    "fake_probability": 0.0,
+    "heatmap_path": "C:\\Users\\Bhavishya Katariya\\Downloads\\voxguard_dashboard_input (2) - Copy\\outputs\\explainability\\heatmaps\\inthewild_gt_real_13213_heatmap.png",
+    "caption": "The model classified this recording as REAL (100.0% confidence). The decision was primarily supported by natural acoustic consistency across the high-frequency region (0.4\u20138.0 kHz) during 0.0\u20133.9 seconds, exhibiting organic high-frequency spectral envelope and phase continuity.",
+    "time_interval_seconds": [
+      0.0,
+      3.9
+    ],
+    "frequency_range_hz": [
+      378.0,
+      8000.0
+    ],
+    "frequency_band": "high",
+    "attribution_strength": 0.466,
+    "model_architecture": "VoxGuardCNN",
+    "ground_truth_label": "Real",
+    "ground_truth_class": 0,
+    "dataset": "inthewild",
+    "classification_correct": true
+  },
+  {
+    "audio_path": "C:\\Users\\Bhavishya Katariya\\Downloads\\voxguard_dashboard_input (2) - Copy\\data\\raw\\inthewild\\26206.wav",
+    "predicted_label": "Real",
+    "predicted_class": 0,
+    "confidence": 1.0,
+    "fake_probability": 0.0,
+    "heatmap_path": "C:\\Users\\Bhavishya Katariya\\Downloads\\voxguard_dashboard_input (2) - Copy\\outputs\\explainability\\heatmaps\\inthewild_gt_real_26206_heatmap.png",
+    "caption": "The model classified this recording as REAL (100.0% confidence). The decision was primarily supported by natural acoustic consistency across the high-frequency region (0.0\u20138.0 kHz) during 0.8\u20133.2 seconds, exhibiting organic high-frequency spectral envelope and phase continuity.",
+    "time_interval_seconds": [
+      0.83,
+      3.2
+    ],
+    "frequency_range_hz": [
+      0.0,
+      8000.0
+    ],
+    "frequency_band": "high",
+    "attribution_strength": 0.439,
+    "model_architecture": "VoxGuardCNN",
+    "ground_truth_label": "Real",
+    "ground_truth_class": 0,
+    "dataset": "inthewild",
+    "classification_correct": true
+  },
+  {
+    "audio_path": "C:\\Users\\Bhavishya Katariya\\Downloads\\voxguard_dashboard_input (2) - Copy\\data\\raw\\asvspoof\\flac\\LA_E_5887977.flac",
+    "predicted_label": "Fake",
+    "predicted_class": 1,
+    "confidence": 0.5104,
+    "fake_probability": 0.5104,
+    "heatmap_path": "C:\\Users\\Bhavishya Katariya\\Downloads\\voxguard_dashboard_input (2) - Copy\\outputs\\explainability\\heatmaps\\asvspoof_gt_real_LA_E_5887977_heatmap.png",
+    "caption": "The model classified this recording as FAKE (51.0% confidence). Attribution primarily concentrated on the mid-frequency region between 0.0 kHz and 6.8 kHz during 1.5\u20132.8 seconds, where abnormal spectral energy patterns related to vocal formant modulations and synthetic transition energy influenced the decision.",
+    "time_interval_seconds": [
+      1.54,
+      2.82
+    ],
+    "frequency_range_hz": [
+      0.0,
+      6803.0
+    ],
+    "frequency_band": "mid",
+    "attribution_strength": 0.445,
+    "model_architecture": "VoxGuardCNN",
+    "ground_truth_label": "Real",
+    "ground_truth_class": 0,
+    "dataset": "asvspoof",
+    "classification_correct": false
+  },
+  {
+    "audio_path": "C:\\Users\\Bhavishya Katariya\\Downloads\\voxguard_dashboard_input (2) - Copy\\data\\raw\\asvspoof\\flac\\LA_E_5832138.flac",
+    "predicted_label": "Real",
+    "predicted_class": 0,
+    "confidence": 0.6843,
+    "fake_probability": 0.3157,
+    "heatmap_path": "C:\\Users\\Bhavishya Katariya\\Downloads\\voxguard_dashboard_input (2) - Copy\\outputs\\explainability\\heatmaps\\asvspoof_gt_real_LA_E_5832138_heatmap.png",
+    "caption": "The model classified this recording as REAL (68.4% confidence). The decision was primarily supported by natural acoustic consistency across the high-frequency region (0.0\u20138.0 kHz) during 1.4\u20132.9 seconds, exhibiting organic high-frequency spectral envelope and phase continuity.",
+    "time_interval_seconds": [
+      1.44,
+      2.85
+    ],
+    "frequency_range_hz": [
+      0.0,
+      8000.0
+    ],
+    "frequency_band": "high",
+    "attribution_strength": 0.383,
+    "model_architecture": "VoxGuardCNN",
+    "ground_truth_label": "Real",
+    "ground_truth_class": 0,
+    "dataset": "asvspoof",
+    "classification_correct": true
+  },
+  {
+    "audio_path": "C:\\Users\\Bhavishya Katariya\\Downloads\\voxguard_dashboard_input (2) - Copy\\data\\raw\\inthewild\\9258.wav",
+    "predicted_label": "Fake",
+    "predicted_class": 1,
+    "confidence": 1.0,
+    "fake_probability": 1.0,
+    "heatmap_path": "C:\\Users\\Bhavishya Katariya\\Downloads\\voxguard_dashboard_input (2) - Copy\\outputs\\explainability\\heatmaps\\inthewild_gt_fake_9258_heatmap.png",
+    "caption": "The model classified this recording as FAKE (100.0% confidence). Attribution primarily concentrated on the mid-frequency region between 0.0 kHz and 7.7 kHz during 0.3\u20133.4 seconds, where abnormal spectral energy patterns related to vocal formant modulations and synthetic transition energy influenced the decision.",
+    "time_interval_seconds": [
+      0.35,
+      3.36
+    ],
+    "frequency_range_hz": [
+      0.0,
+      7685.0
+    ],
+    "frequency_band": "mid",
+    "attribution_strength": 0.398,
+    "model_architecture": "VoxGuardCNN",
+    "ground_truth_label": "Fake",
+    "ground_truth_class": 1,
+    "dataset": "inthewild",
+    "classification_correct": true
+  },
+  {
+    "audio_path": "C:\\Users\\Bhavishya Katariya\\Downloads\\voxguard_dashboard_input (2) - Copy\\data\\raw\\inthewild\\17550.wav",
+    "predicted_label": "Fake",
+    "predicted_class": 1,
+    "confidence": 0.9943,
+    "fake_probability": 0.9943,
+    "heatmap_path": "C:\\Users\\Bhavishya Katariya\\Downloads\\voxguard_dashboard_input (2) - Copy\\outputs\\explainability\\heatmaps\\inthewild_gt_fake_17550_heatmap.png",
+    "caption": "The model classified this recording as FAKE (99.4% confidence). Attribution primarily concentrated on the high-frequency region between 5.4 kHz and 8.0 kHz during 1.2\u20132.9 seconds, where abnormal spectral energy patterns related to high-frequency spectral envelope and phase continuity influenced the decision.",
+    "time_interval_seconds": [
+      1.25,
+      2.85
+    ],
+    "frequency_range_hz": [
+      5417.0,
+      8000.0
+    ],
+    "frequency_band": "high",
+    "attribution_strength": 0.439,
+    "model_architecture": "VoxGuardCNN",
+    "ground_truth_label": "Fake",
+    "ground_truth_class": 1,
+    "dataset": "inthewild",
+    "classification_correct": true
+  },
+  {
+    "audio_path": "C:\\Users\\Bhavishya Katariya\\Downloads\\voxguard_dashboard_input (2) - Copy\\data\\raw\\asvspoof\\flac\\LA_E_2363434.flac",
+    "predicted_label": "Real",
+    "predicted_class": 0,
+    "confidence": 0.6191,
+    "fake_probability": 0.3809,
+    "heatmap_path": "C:\\Users\\Bhavishya Katariya\\Downloads\\voxguard_dashboard_input (2) - Copy\\outputs\\explainability\\heatmaps\\asvspoof_gt_fake_LA_E_2363434_heatmap.png",
+    "caption": "The model classified this recording as REAL (61.9% confidence). The decision was primarily supported by natural acoustic consistency across the mid-frequency region (0.0\u20136.0 kHz) during 0.3\u20133.5 seconds, exhibiting organic vocal formant modulations and synthetic transition energy.",
+    "time_interval_seconds": [
+      0.32,
+      3.55
+    ],
+    "frequency_range_hz": [
+      0.0,
+      5984.0
+    ],
+    "frequency_band": "mid",
+    "attribution_strength": 0.49,
+    "model_architecture": "VoxGuardCNN",
+    "ground_truth_label": "Fake",
+    "ground_truth_class": 1,
+    "dataset": "asvspoof",
+    "classification_correct": false
+  },
+  {
+    "audio_path": "C:\\Users\\Bhavishya Katariya\\Downloads\\voxguard_dashboard_input (2) - Copy\\data\\raw\\asvspoof\\flac\\LA_E_9245859.flac",
+    "predicted_label": "Real",
+    "predicted_class": 0,
+    "confidence": 0.5265,
+    "fake_probability": 0.4735,
+    "heatmap_path": "C:\\Users\\Bhavishya Katariya\\Downloads\\voxguard_dashboard_input (2) - Copy\\outputs\\explainability\\heatmaps\\asvspoof_gt_fake_LA_E_9245859_heatmap.png",
+    "caption": "The model classified this recording as REAL (52.6% confidence). The decision was primarily supported by natural acoustic consistency across the mid-frequency region (0.0\u20136.1 kHz) during 0.2\u20133.8 seconds, exhibiting organic vocal formant modulations and synthetic transition energy.",
+    "time_interval_seconds": [
+      0.22,
+      3.81
+    ],
+    "frequency_range_hz": [
+      0.0,
+      6110.0
+    ],
+    "frequency_band": "mid",
+    "attribution_strength": 0.529,
+    "model_architecture": "VoxGuardCNN",
+    "ground_truth_label": "Fake",
+    "ground_truth_class": 1,
+    "dataset": "asvspoof",
+    "classification_correct": false
+  }
+]

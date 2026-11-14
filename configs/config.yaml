@@ -1,0 +1,60 @@
+# ==============================================================================
+# VOXGUARD CENTRALIZED EXPERIMENT CONFIGURATION
+# ==============================================================================
+#
+# >>> THE SINGLE VALUE TO SWITCH FROM DUMMY DATA TO REAL DATA: <<<
+# Set `data_source` to:
+#   - "real"  -> loads actual preprocessed corpora (data/processed/metadata.csv)
+#   - "dummy" -> loads synthetic isolated dummy files (data/dummy/metadata.csv)
+# No other code or setting modifications are needed!
+# ==============================================================================
+
+# ------------------------------------------------------------------------------
+# 1. DATA SOURCE SELECTION (TOGGLE THIS ONE VALUE)
+# ------------------------------------------------------------------------------
+data_source: "real"   # Options: "real" | "dummy"
+
+# Derived metadata paths (auto-resolved based on data_source above):
+# "real"  -> data/processed/metadata.csv
+# "dummy" -> data/dummy/metadata.csv
+
+# ------------------------------------------------------------------------------
+# 2. MODEL ARCHITECTURE
+# ------------------------------------------------------------------------------
+model:
+  arch: "cnn"           # Options: "cnn" | "transformer"
+  dropout: 0.3          # Dropout rate for regularization
+  embed_dim: 128        # Transformer token embedding dimension
+  depth: 4              # Transformer encoder layers
+  num_heads: 4          # Multi-head attention heads
+
+# ------------------------------------------------------------------------------
+# 3. TRAINING HYPERPARAMETERS
+# ------------------------------------------------------------------------------
+training:
+  batch_size: 64
+  learning_rate: 0.001  # 1e-3 initial learning rate
+  epochs: 5
+  optimizer: "adam"     # Options: "adam" | "adamw"
+  weight_decay: 0.0001  # L2 regularization
+  random_seed: 42
+  device: "auto"        # "auto" (detects CUDA, falls back to CPU), or "cpu", "cuda"
+  max_train_samples: 0  # 0 means full 100% dataset (149,341 samples)
+  max_val_samples: 2000 # Validation cap for faster validation evaluation
+
+# ------------------------------------------------------------------------------
+# 4. EARLY STOPPING & SCHEDULER
+# ------------------------------------------------------------------------------
+early_stopping:
+  patience: 3           # Stop after 3 epochs without validation loss improvement
+  min_delta: 0.001      # Minimum loss improvement threshold
+  monitor: "val_loss"   # Options: "val_loss" | "val_auc"
+
+# ------------------------------------------------------------------------------
+# 5. DIRECTORY PATHS
+# ------------------------------------------------------------------------------
+paths:
+  checkpoints_dir: "models"
+  results_metrics_dir: "results/metrics"
+  results_history_dir: "results/training_history"
+

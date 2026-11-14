@@ -1,0 +1,47 @@
+{
+  "architecture": "cnn",
+  "checkpoint": "C:\\Users\\Bhavishya Katariya\\Downloads\\voxguard_dashboard_input (2) - Copy\\checkpoints\\test_eval_cnn.pt",
+  "total_test_samples": 12,
+  "overall_metrics": {
+    "total_samples": 12,
+    "real_samples": 6,
+    "fake_samples": 6,
+    "accuracy": 0.5,
+    "precision": 0.5,
+    "recall": 1.0,
+    "f1_score": 0.6667,
+    "auc_roc": 0.0,
+    "eer_percent": 100.0,
+    "eer_threshold": 0.518
+  },
+  "dataset_wise_metrics": {
+    "asvspoof": {
+      "total_samples": 6,
+      "real_samples": 6,
+      "fake_samples": 0,
+      "accuracy": 0.0,
+      "precision": null,
+      "recall": null,
+      "f1_score": null,
+      "auc_roc": null,
+      "eer_percent": null,
+      "eer_threshold": null,
+      "note": "Insufficient class variety for Precision/Recall/EER (single class present)"
+    },
+    "inthewild": {
+      "total_samples": 6,
+      "real_samples": 0,
+      "fake_samples": 6,
+      "accuracy": 1.0,
+      "precision": null,
+      "recall": null,
+      "f1_score": null,
+      "auc_roc": null,
+      "eer_percent": null,
+      "eer_threshold": null,
+      "note": "Insufficient class variety for Precision/Recall/EER (single class present)"
+    }
+  },
+  "generalization_gap": {},
+  "inference_duration_seconds": 0.09
+}

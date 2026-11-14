@@ -1,0 +1,21 @@
+{
+  "architecture": "cnn",
+  "epochs": 1,
+  "batch_size": 64,
+  "total_train_samples": 149341,
+  "total_val_samples": 2000,
+  "best_val_loss": 0.1574,
+  "best_val_auc": 0.959,
+  "history": [
+    {
+      "epoch": 1,
+      "train_loss": 0.1013,
+      "train_acc": 0.8712,
+      "train_auc": 0.9506,
+      "val_loss": 0.1574,
+      "val_acc": 0.8825,
+      "val_f1": 0.8823,
+      "val_auc": 0.959
+    }
+  ]
+}

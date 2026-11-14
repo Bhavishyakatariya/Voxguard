@@ -1,0 +1,45 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+**/__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Virtual Environments
+.venv/
+venv/
+ENV/
+env/
+
+# Node dependencies
+node_modules/
+**/node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Large Datasets (Raw and processed partitions)
+data/raw/
+data/processed/
+data/dummy/
+
+# Preserve sample audios needed for verification & dashboard demonstration
+!data/sample_audios/
+!data/sample_audios/*
+
+# Temporary analysis uploads
+outputs/explainability/temp_uploads/*
+!outputs/explainability/temp_uploads/.gitkeep
+
+# OS and Editor files
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Logs & temp caches
+*.log
+.matplotlib/

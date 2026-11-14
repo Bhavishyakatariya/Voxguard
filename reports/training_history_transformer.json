@@ -1,0 +1,21 @@
+{
+  "architecture": "transformer",
+  "epochs": 1,
+  "batch_size": 64,
+  "total_train_samples": 2000,
+  "total_val_samples": 500,
+  "best_val_loss": 0.6989,
+  "best_val_auc": 0.4786,
+  "history": [
+    {
+      "epoch": 1,
+      "train_loss": 0.9537,
+      "train_acc": 0.4925,
+      "train_auc": 0.4895,
+      "val_loss": 0.6989,
+      "val_acc": 0.5,
+      "val_f1": 0.6667,
+      "val_auc": 0.4786
+    }
+  ]
+}

@@ -1,0 +1,4 @@
+partition,total_samples,real_samples,fake_samples,accuracy,precision,recall,f1_score,auc_roc,eer_percent,eer_threshold,note
+OVERALL,12,6,6,0.5,0.5,1.0,0.6667,0.0,100.0,0.518,
+ASVSPOOF,6,6,0,0.0,,,,,,,Insufficient class variety for Precision/Recall/EER (single class present)
+INTHEWILD,6,0,6,1.0,,,,,,,Insufficient class variety for Precision/Recall/EER (single class present)

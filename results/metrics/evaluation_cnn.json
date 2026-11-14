@@ -1,0 +1,48 @@
+{
+  "architecture": "cnn",
+  "checkpoint": "models/voxguard_model.pt",
+  "total_test_samples": 32003,
+  "overall_metrics": {
+    "total_samples": 32003,
+    "real_samples": 5763,
+    "fake_samples": 26240,
+    "accuracy": 0.88,
+    "precision": 0.9713,
+    "recall": 0.8797,
+    "f1_score": 0.9232,
+    "auc_roc": 0.9589,
+    "eer_percent": 11.95,
+    "eer_threshold": 0.4981
+  },
+  "dataset_wise_metrics": {
+    "asvspoof": {
+      "total_samples": 27235,
+      "real_samples": 2768,
+      "fake_samples": 24467,
+      "accuracy": 0.8644,
+      "precision": 0.9699,
+      "recall": 0.8762,
+      "f1_score": 0.9207,
+      "auc_roc": 0.9146,
+      "eer_percent": 17.15,
+      "eer_threshold": 0.604
+    },
+    "inthewild": {
+      "total_samples": 4768,
+      "real_samples": 2995,
+      "fake_samples": 1773,
+      "accuracy": 0.9694,
+      "precision": 0.9898,
+      "recall": 0.9272,
+      "f1_score": 0.9575,
+      "auc_roc": 0.9951,
+      "eer_percent": 2.11,
+      "eer_threshold": 0.1767
+    }
+  },
+  "generalization_gap": {
+    "eer_gap_percent": 15.04,
+    "auc_gap": 0.0805
+  },
+  "inference_duration_seconds": 1951.9
+}
